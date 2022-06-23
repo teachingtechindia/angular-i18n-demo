@@ -1,0 +1,13 @@
+{
+  "locale": "en-US",
+  "translations": {
+    "2904469772470964783": "Name",
+    "4768749765465246664": "Email",
+    "2314075913167237221": "City",
+    "2691548826295861930": "Projects Counts",
+    "8856905278208146821": " {$ICU} ",
+    "8679509151206028787": "{VAR_PLURAL, plural, =0 {No project compledted so far.} =1 {One Project completed.} other {A total of {INTERPOLATION} projects are completed by the user so far.}}",
+    "4846236882408369646": "Profession",
+    "5895880244544160230": "{VAR_SELECT, select, dr {Doctor} prof {Professor} er {Engineer}}"
+  }
+}

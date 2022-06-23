@@ -3,7 +3,7 @@
 <div class="fb-container">
 
   <div class="key-value-container">
-    <h1 i18n>Name</h1>
+    <h1 i18n="Name Heading | Title for the showing the name of the user below">Name</h1>
     <h2>Vivek Kumar</h2>
   </div>
 
@@ -20,7 +20,28 @@
 
   <div class="key-value-container">
     <h1 i18n>Projects Counts</h1>
-    <h2>18 Projects Done</h2>
+    <h2 i18n>
+      {
+      projectCounts,
+      plural,
+      =0 {No project compledted so far.}
+      =1 {One Project completed.}
+      other {A total of {{projectCounts}} projects are completed by the user so far.}
+      }
+    </h2>
+  </div>
+
+  <div class="key-value-container">
+    <h1 i18n>Profession</h1>
+    <h2 i18n>
+      {
+      profession,
+      select,
+      dr {Doctor}
+      prof {Professor}
+      er {Engineer}
+      }
+    </h2>
   </div>
 </div>
 
