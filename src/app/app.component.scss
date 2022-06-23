@@ -1,0 +1,28 @@
+.fb-container {
+  display: flex;
+  flex-direction: col;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .key-value-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    border: 1px solid dodgerblue;
+    padding: 1rem 1rem;
+
+
+    h1 {
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    h2 {
+      font-weight: 400;
+      padding-left: 1rem;
+      font-size: 16px;
+    }
+  }
+}
